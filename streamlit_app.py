@@ -7,7 +7,7 @@ streamlit.title('🥗 Kale,Spinach and Rocket Smoothie')
 streamlit.title(' 🐔 Hard.boiled.free.range Egg')
 streamlit.title('🥑🍞 Avocado and bread')
 streamlit.header('Build Your Own Fruit Smoothie')
-streamlit.dataframe(my_fruit_list)
+//streamlit.dataframe(my_fruit_list)
 
 
  
