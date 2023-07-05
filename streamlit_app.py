@@ -1,9 +1,12 @@
 import streamlit
 import pandas
+import requests
+fruityvice_response=request.get("https://fruityvice.com/api/fruit/watermelon")
 my_fruit_list=pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 #Let's put pict
 my_fruit_list=my_fruit_list.set_index('Fruit')
 
+streamlit.text(fruityvice_reponse)
 streamlit.header('Breakfast Favorite')
 streamlit.title(' 🥣 Omega 3 and Blueberry Oatmeal')
 streamlit.title('🥗 Kale,Spinach and Rocket Smoothie')
