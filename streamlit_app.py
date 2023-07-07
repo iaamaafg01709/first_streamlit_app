@@ -40,7 +40,7 @@ streamlit.title('🥗 Kale,Spinach and Rocket Smoothie')
 streamlit.title(' 🐔 Hard.boiled.free.range Egg')
 streamlit.title('🥑🍞 Avocado and bread')
 streamlit.header('Build Your Own Fruit Smoothie')
-
+streanlit.header(" Hello")
 fruits_selected=streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 fruits_to_show=my_fruit_list.loc[fruits_selected]
 #streamlit.dataframe(my_fruit_list)
